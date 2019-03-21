@@ -12,8 +12,8 @@ def clone(obj, times=1):
 def list_of_clones(obj, count):
     return [obj.clone() for n in range(count)]
 
-def fibonacchi(obj):
-    return obj.fibonacchi()
+def fibonacci(obj):
+    return obj.fibonacci()
 
 def md5(obj):
     return obj.md5()

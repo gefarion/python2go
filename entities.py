@@ -12,7 +12,7 @@ class TestObj(object):
         return self.string * self.num
 
     @cython.locals(a = int, b = int, c = int)
-    def fibonacchi(self):
+    def fibonacci(self):
         a = 0
         b = 1
 
