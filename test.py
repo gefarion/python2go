@@ -23,7 +23,7 @@ class TestModule2Migrate(unittest.TestCase):
 
     def test_fibinacci(self):
         obj = entities.TestObj(10, 'a')
-        self.assertEqual(34, m2m.fibonacchi(obj))
+        self.assertEqual(34, m2m.fibonacci(obj))
 
     def test_md5(self):
         obj = entities.TestObj(10, 'abcdef')
